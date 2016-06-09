@@ -10,7 +10,10 @@ package hello.world;
  * @author jonathan
  */
 public class HelloWorld {
-
+    
+    public static void printThings(String s){
+        System.out.println(s);
+    }
     /**
      * @param args the command line arguments
      */
@@ -18,7 +21,8 @@ public class HelloWorld {
         // TODO code application logic here
         
         System.out.println("Hello world!!");
-        
+
+        printThings("hello again");
     }
     
 }
